@@ -9,7 +9,7 @@ export default function Home() {
 	if (session) {
 		return (
 			<>
-				Signed in as {session?.user?.email} <br />
+				Signed in s {session?.user?.email} <br />
 				<button onClick={() => signOut()}>Sign out</button>
 			</>
 		)
